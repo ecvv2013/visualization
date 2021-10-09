@@ -1,0 +1,11 @@
+
+<svg width="200" height="120" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120">
+    <ellipse cx="100" cy="60" rx="200" ry="120" fill="red" stroke="#F04B18" stroke-width="1">
+        <animate attributeName="rx" calcMode="spline" values="28;80" keyTimes="0;1" dur="2.4" keySplines="0 0.2 0.8 1"
+            begin="0s" repeatCount="indefinite" />
+        <animate attributeName="ry" calcMode="spline" values="14;40" keyTimes="0;1" dur="2.4" keySplines="0 0.2 0.8 1"
+            begin="0s" repeatCount="indefinite" />
+        <animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="2.4" keySplines="0.2 0 0.8 1"
+            begin="0s" repeatCount="indefinite" />
+    </ellipse>
+</svg>
